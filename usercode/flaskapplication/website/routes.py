@@ -5,7 +5,7 @@ import openai
 
 routes = Blueprint('routes', __name__)
 
-openai.api_key = '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'
+openai.api_key = 'YOUR-API-TOKEN'
 completion = openai.Completion()
 start_chat_log = "Hello"
 
